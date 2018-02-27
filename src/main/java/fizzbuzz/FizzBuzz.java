@@ -12,7 +12,7 @@ public class FizzBuzz {
 		if (number % 5 == 0) {
 			return "Buzz";
 		}
-		return "The number is neither a multiple of three or five";
+		return "" + number;
 	}
 
 }

@@ -60,6 +60,6 @@ public class FizzBuzzTest {
 	@Test
 	public void test2() {
 		String check = fizz.say(47);
-		assertThat(check, is("The number is neither a multiple of three or five"));
+		assertThat(check, is("47"));
 	}
 }
